@@ -1,28 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Portfolio website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: Portfolio website ...">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Design Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
 
 <body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Portfolio Website
-  </h1>
+<header>
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/WenzProjectsCNWLogo.jpg" alt="Logo" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="navbar-bar"></div>
+</header>
 
-  <script type="module" src="./javascripts/main.js"></script>
+<br>
+
+<section class="folder-section">
+  <div class="top-bar"></div>
+  <div class="title-bar">
+    <h2>Graphic Design</h2>
+  </div>
+  <div class="folder-content">
+    <div class="folder-text">
+      <p>
+        <strong>Graphic Design</strong> is a natural extension of my passion for creativity and visual art. As a student at Davis Technical College and Weber State
+        University, I enjoy exploring how strong visuals, meaningful layouts, and various forms of media can communicate the ideas folks try to
+        get across to their audience.
+      </p>
+      <p>  
+        My <strong>experience</strong> ranges from creating graphics for organizations, clubs, and websites down to stickers and
+        waterslide decals for hobby projects. I've always been drawn to capturing interesting art through various forms. I have a passion for
+        photography and fine-detailed model making as well. I'm constantly looking for projects to improve my skills and give me new challenges.
+      </p>
+      <p>
+        I have a strong interest in <strong>typography</strong> and how it can be used to enhance the message of a design. I enjoy experimenting with different fonts and layouts to create visually appealing and effective designs. I also have experience with <strong>branding</strong> and how to create a cohesive visual identity for a company or organization.
+      </p>
+    </div>  
+    <div class="folder-image">
+      <img src="images/Mod14ProjPart2.PNG" alt="Graphic Design Sample">
+    </div>
+  </div>
+</section>
+
+<section class="folder-section">
+  <div class="top-bar-2"></div>
+  <div class="title-bar-2">
+    <h2>Other Tech Skills</h2>
+  </div>
+  <div class="folder-content">
+    <div class="folder-image">
+      <img src="images/50thAnniversary.png" alt="Graphic Design Sample">
+    </div>  
+    <div class="folder-text">
+      <p>
+        I have experience with various technologies and tools, including <strong>HTML, CSS, JavaScript</strong>, and content management systems. I'm also familiar with version control systems like Git and have a basic understanding of web development including various levels of web accessibility.
+      </p>
+      <p>
+        I enjoy learning new technologies and finding ways to apply them to my projects. I'm always looking for opportunities to expand my skill set and take on new challenges in the tech world.
+      </p>
+    </div>  
+  </div>
+</section>
+
+<section class="folder-section">
+  <div class="top-bar"></div>
+  <div class="title-bar">
+    <h2>Case Study</h2>
+  </div>
+  <div class="folder-content">
+    <div class="folder-text">
+      <p>
+        This particular project stemmed from a font learning course, <strong>ITC Avant Garde Gothic Pro</strong>.
+      </p>
+      <p>
+        I wanted to create a design that would allow me to experiment with the font and its various weights and styles. 
+        I decided to create an NHL team branding for the at the time up and coming Utah Mammoth, prior to the name of course. <strong>Black Diamonds</strong> was one of the names in the voting and was my favorite of the bunch. 
+      </p>
+      <p>
+        I also am very vocal about prefering the city's name over the state when it comes to events or teams, (ie, the 2034 Utah Olympics should be the 2034 Salt Lake City Olympics) so I wanted to incorporate that into the design as well.
+      </p>
+    </div>  
+    <div class="folder-image">
+      <img src="images/Project4V2-scaled.jpg" alt="Graphic Design Sample">
+    </div>
+  </div>
+</section>
+
+<footer class="navbar navbar-dark menu footer-section shadow mt-5">
+  <div class="container py-4 d-flex flex-column flex-md-row align-items-center justify-content-between">
+    <div class="footer-left text-center text-md-start mb-3 mb-md-0 d-flex flex-column flex-md-row align-items-center gap-3">
+      <a href="mailto:wasatchrangelightrail@gmail.com" class="nav-link mb-2 mb-md-0">WenzProjects@gmail.com</a>
+      <div class="footer-social d-flex gap-3">
+        <a href="https://www.youtube.com/@wenzprojects" aria-label="YouTube"><img src="images/YouTube_Icon.webp" alt="YouTube"></a>
+        <a href="https://www.linkedin.com/in/brady-wenzbauer-2a2123239" aria-label="Instagram"><img src="images/LinkedIn_Icon.webp" alt="Instagram"></a>
+      </div>
+      <div class="small text-light opacity-75 mt-2 mt-md-0">© 2026 Wenz Projects</div>
+    </div>
+    <div class="footer-right text-center text-md-end">
+      <img src="images/WenzProjectsCNWLogo.jpg" alt="Wenz Projects Logo" class="footer-logo">
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="./javascripts/main.js"></script>
+
 </body>
 </html>
