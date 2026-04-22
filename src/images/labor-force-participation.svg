@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 972 504">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 24px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+      }
+
+      .cls-4 {
+        fill: #4a2565;
+      }
+
+      .cls-5 {
+        stroke-width: .5px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        fill: #a595c2;
+      }
+
+      .cls-3 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <text/>
+        <text/>
+        <text/>
+        <text/>
+        <text/>
+      </g>
+      <line class="cls-6" x1="375.67" y1="217.03" x2="378.67" y2="217.03"/>
+    </g>
+    <line class="cls-6" x1="375.67" y1="217.03" x2="375.75" y2="217.03"/>
+    <rect class="cls-5" x="375.67" y="217.03" width="3"/>
+  </g>
+  <g>
+    <g>
+      <line class="cls-6" x1="76.7" y1="409.59" x2="580.7" y2="409.59"/>
+      <g>
+        <line class="cls-6" x1="118.7" y1="409.59" x2="118.7" y2="401.74"/>
+        <line class="cls-6" x1="202.7" y1="409.59" x2="202.7" y2="401.74"/>
+        <line class="cls-6" x1="286.7" y1="409.59" x2="286.7" y2="401.74"/>
+        <line class="cls-6" x1="370.7" y1="409.59" x2="370.7" y2="401.74"/>
+        <line class="cls-6" x1="454.7" y1="409.59" x2="454.7" y2="401.74"/>
+        <line class="cls-6" x1="538.7" y1="409.59" x2="538.7" y2="401.74"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <text class="cls-1" transform="translate(55.47 418.45)"><tspan x="0" y="0">0</tspan></text>
+        <text class="cls-1" transform="translate(42.13 355.65)"><tspan x="0" y="0">20</tspan></text>
+        <text class="cls-1" transform="translate(42.13 292.85)"><tspan x="0" y="0">40</tspan></text>
+        <text class="cls-1" transform="translate(42.13 230.05)"><tspan x="0" y="0">60</tspan></text>
+        <text class="cls-1" transform="translate(42.13 167.25)"><tspan x="0" y="0">80</tspan></text>
+        <text class="cls-1" transform="translate(28.78 104.45)"><tspan x="0" y="0">100</tspan></text>
+      </g>
+      <line class="cls-6" x1="76.7" y1="409.59" x2="76.7" y2="95.59"/>
+      <g>
+        <line class="cls-6" x1="76.7" y1="409.59" x2="89.3" y2="409.59"/>
+        <line class="cls-6" x1="76.7" y1="346.79" x2="89.3" y2="346.79"/>
+        <line class="cls-6" x1="76.7" y1="283.99" x2="89.3" y2="283.99"/>
+        <line class="cls-6" x1="76.7" y1="221.19" x2="89.3" y2="221.19"/>
+        <line class="cls-6" x1="76.7" y1="158.39" x2="89.3" y2="158.39"/>
+        <line class="cls-6" x1="76.7" y1="95.59" x2="89.3" y2="95.59"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect class="cls-4" x="616.2" y="95.59" width="63" height="31.4"/>
+        <g>
+          <rect class="cls-4" x="120.38" y="291.84" width="30.24" height="117.75"/>
+          <rect class="cls-4" x="204.38" y="181.94" width="30.24" height="227.65"/>
+          <rect class="cls-4" x="288.38" y="141.44" width="30.24" height="268.16"/>
+          <rect class="cls-4" x="372.38" y="139.24" width="30.24" height="270.35"/>
+          <rect class="cls-4" x="456.38" y="139.87" width="30.24" height="269.73"/>
+          <rect class="cls-4" x="540.38" y="183.2" width="30.24" height="226.39"/>
+        </g>
+      </g>
+      <g>
+        <rect class="cls-7" x="616.2" y="142.69" width="63" height="31.4"/>
+        <g>
+          <rect class="cls-7" x="86.78" y="324.81" width="30.24" height="84.78"/>
+          <rect class="cls-7" x="170.78" y="246.94" width="30.24" height="162.65"/>
+          <rect class="cls-7" x="254.78" y="230.61" width="30.24" height="178.98"/>
+          <rect class="cls-7" x="338.78" y="258.87" width="30.24" height="150.72"/>
+          <rect class="cls-7" x="422.78" y="282.11" width="30.24" height="127.48"/>
+          <rect class="cls-7" x="506.78" y="318.22" width="30.24" height="91.37"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <text class="cls-1" transform="translate(687.07 120.15)"><tspan x="0" y="0">People with no disability</tspan></text>
+      <text class="cls-1" transform="translate(687.07 167.25)"><tspan x="0" y="0">People with a disability</tspan></text>
+    </g>
+    <g>
+      <text class="cls-1" transform="translate(508.01 432.22)"><tspan x="0" y="0">55-64</tspan></text>
+      <text class="cls-1" transform="translate(424.01 432.22)"><tspan x="0" y="0">45-54</tspan></text>
+      <text class="cls-1" transform="translate(340.01 432.22)"><tspan x="0" y="0">35-44</tspan></text>
+      <text class="cls-1" transform="translate(256.01 432.22)"><tspan x="0" y="0">25-34</tspan></text>
+      <text class="cls-1" transform="translate(172.01 432.22)"><tspan x="0" y="0">20-24</tspan></text>
+      <text class="cls-1" transform="translate(88.01 432.22)"><tspan x="0" y="0">16-19</tspan></text>
+    </g>
+  </g>
+  <text class="cls-3" transform="translate(31.37 56.88)"><tspan x="0" y="0">Labor force participation rate by disability status and age, 2023</tspan></text>
+  <text class="cls-2" transform="translate(33.53 466.59)"><tspan x="0" y="0">Source: U.S. Bueau of Labor Statistics.</tspan></text>
+</svg>

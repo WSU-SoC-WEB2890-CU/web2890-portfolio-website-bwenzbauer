@@ -28,7 +28,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto" role="menubar">
           <li class="nav-item">
-            <a class="nav-link" href="index.html" role="menuitem">HOME</a>
+            <a class="nav-link" href="index.html" role="menuitem" aria-current="page">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html" role="menuitem">ABOUT ME</a>
@@ -37,7 +37,10 @@
             <a class="nav-link" href="gallery.html" role="menuitem">GALLERY</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html" role="menuitem" aria-current="page">CONTACT</a>
+            <a class="nav-link" href="contact.html" role="menuitem">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="accessibility.html" role="menuitem">ACCESSIBILITY</a>
           </li>
         </ul>
       </div>
@@ -78,63 +81,65 @@
     </div>
 
     <div class="folder-form col-12 col-md-6">
-      <form action="mailto:WenzProjects@gmail.com" 
-            method="post" 
-            enctype="text/plain" 
+
+      <!-- UPDATED WORKING FORM (Formspree) -->
+      <form action="https://formspree.io/f/xbdqprvn"
+            method="POST"
             class="p-4 bg-light rounded shadow"
             aria-labelledby="form-heading">
 
         <h2 id="form-heading" class="visually-hidden">Contact form</h2>
 
+        <!-- Formspree extras -->
+        <input type="hidden" name="_subject" value="New message from Wenz Projects site">
+        <input type="text" name="_gotcha" style="display:none">
+
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>
-          <input type="text" 
-                 class="form-control" 
-                 id="name" 
-                 name="name" 
+          <input type="text"
+                 class="form-control"
+                 id="name"
+                 name="name"
                  placeholder="Your full name"
-                 aria-required="true"
                  required>
         </div>
 
         <div class="mb-3">
           <label for="email" class="form-label">Email</label>
-          <input type="email" 
-                 class="form-control" 
-                 id="email" 
-                 name="email" 
+          <input type="email"
+                 class="form-control"
+                 id="email"
+                 name="email"
                  placeholder="yourname@example.com"
-                 aria-required="true"
                  required>
         </div>
 
         <div class="mb-3">
           <label for="subject" class="form-label">Subject</label>
-          <input type="text" 
-                 class="form-control" 
-                 id="subject" 
-                 name="subject" 
+          <input type="text"
+                 class="form-control"
+                 id="subject"
+                 name="subject"
                  placeholder="Subject of your message"
-                 aria-required="true"
                  required>
         </div>
 
         <div class="mb-3">
           <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" 
-                    id="message" 
-                    name="message" 
-                    rows="5" 
+          <textarea class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
                     placeholder="Type your message here..."
-                    aria-required="true"
                     required></textarea>
         </div>
 
-        <button type="submit" 
+        <button type="submit"
                 class="btn btn-primary w-100"
                 aria-label="Send contact form message">
           Send Message
         </button>
+
       </form>
     </div>
 
